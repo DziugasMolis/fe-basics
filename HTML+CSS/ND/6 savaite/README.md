@@ -26,5 +26,5 @@
 
 
 
-2. Replicate   HTML+CSS/ND/Single page with backgroud/README.md
+2. Replicate HTML+CSS/ND/Single page with backgroud/README.md
 
