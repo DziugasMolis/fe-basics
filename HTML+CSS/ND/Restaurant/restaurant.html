@@ -20,11 +20,22 @@
 
 <body>
     <nav id="navbar">
-        <a href="#specials">Specials</a>
-        <a href="#about">About</a>
-        <a href="#menu">Menu</a>
-        <a href="#chef">Chef</a>
-        <a href="#contact">Contact</a>
+        <div id="menu-options" class="menu-options">
+            <a href="#specials">Specials</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#chef">Chef</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-container" onclick="menuToggle(this)">
+            <div class="bar1">
+            </div>
+            <div class="bar2">
+            </div>
+            <div class="bar3">
+            </div>
+        </div>
+
     </nav>
     <header>
         <span></span>
@@ -426,7 +437,15 @@
         </div>
     </div>
 
-
+    <script>
+        function menuToggle(menuContainer) {
+           
+            let menuOptions = document.getElementById('menu-options');
+            console.log(menuOptions)
+            menuOptions.classList.toggle('change');
+            menuContainer.classList.toggle('change');
+        }
+    </script>
 </body>
 
 </html>
