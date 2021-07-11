@@ -448,9 +448,10 @@ header {
         .about-text {
             padding: 60px 0;
         }
-        .menu-container .menu-details {
-            width: 100%;
-        }
+    }
+
+    #menu .container .menu-container .menu-details {
+        width: 100%;
     }
     #gallery img {
         width: 50%;
