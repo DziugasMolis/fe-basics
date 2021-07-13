@@ -1,5 +1,5 @@
 header {
-    height: 450px;
+    min-height: 450px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ header {
 }
 
 header .bg {
-    height: 450px;
+    height: 100%;
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -32,7 +32,7 @@ header a {
     text-decoration: none;
     padding: 1em 2em;
     border: 1px solid #666;
-    margin: 0.5em 0;
+    margin: 2em 0;
 }
 
 header a:hover {
